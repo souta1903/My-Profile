@@ -149,6 +149,18 @@ header{
         padding: 0px 30px 20px 30px;
     }
 }
+.photo5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width:780px){
+    .photo5{
+        flex-direction: column;
+        padding: 0px 30px 20px 30px;
+    }
+}
 
 li{
     width: 33%;
